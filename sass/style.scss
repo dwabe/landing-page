@@ -25,10 +25,9 @@ body {
     margin: 0 auto;
 }
 
-
+/* navigation ------------------------------------------------------------ */
 
 .navigation {
-    border: 1px solid red;
     @include flex;
     margin-top: 75px;
     .top-menu {
@@ -64,6 +63,8 @@ body {
     }
 }
 
+/* hero ----------------------------------------------------------------- */
+
 .hero {
     border: 1px solid red;
     width: 100%;
@@ -88,7 +89,6 @@ body {
         z-index: -1;
     }
     .hero-container {
-        border: 1px solid red;
         @include flex;
         flex-wrap: wrap;
         max-width: 844px;
@@ -142,8 +142,7 @@ body {
 }
 
 .claim {
-    border: 1px solid red;
-    padding: 80px 0 76px 0;
+    
     h2 {
         color: #222222;
         font-family: 'Montserrat', sans-serif;
@@ -161,8 +160,9 @@ body {
     }
 }
 
+/* services -------------------------------------------------------------- */
+
 .services {
-    border: 1px solid red;
     margin-top: 80vh;
     height: 100vh;
     margin-bottom: 10vh;
@@ -181,50 +181,12 @@ body {
     }
 }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-
-.col-m-1 {width: 8.33%;}
-.col-m-2 {width: 16.66%;}
-.col-m-3 {width: 25%;}
-.col-m-4 {width: 33.33%;}
-.col-m-5 {width: 41.66%;}
-.col-m-6 {width: 50%;}
-.col-m-7 {width: 58.33%;}
-.col-m-8 {width: 66.66%;}
-.col-m-9 {width: 75%;}
-.col-m-10 {width: 83.33%;}
-.col-m-11 {width: 91.66%;}
-.col-m-12 {width: 100%;}
-
-
-[class*="col-"] {
-    width: 100%;
-    float: left;
-}
-
-.row:before, 
-.row:after {
-    content: "";
-    display: table ;
-    clear: both;
-}
+/* portfolio ------------------------------------------------------------- */
 
 .portfolio {
     background-color: #f7f7f7;
     margin: 0 auto;
-    padding-bottom: : 10vh;
+    padding-bottom: 100px;
     .portfolio-box {
         display: flex;
         align-items: center;
@@ -240,3 +202,130 @@ body {
         }
     }
 }
+
+/* about us -------------------------------------------------------------- */
+
+.img-container {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    img {
+        width: 168px;
+        height: 168px;
+        border: 7px solid #f1f1f1;
+        border-radius: 50%;
+        background-color: #fed136;
+        margin: 0 auto;
+    }
+}
+
+.last-object {
+    width: 168px;
+    height: 168px;
+    border: 7px solid #f1f1f1;
+    border-radius: 50%;
+    background-color: #fed136;
+    margin: 0;
+    h3 {
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 20px;
+        line-height: 30px;
+    }
+}
+
+/* our team -------------------------------------------------------------- */
+
+.our-team {
+    text-align: center;
+    background-color: #f9f9f9;
+    .container {
+        padding: 0;
+        .container-element {
+            max-width: 400px;
+            margin: 40px 28px;
+            padding: 0;
+            img {
+                margin: 28px 0;
+            }
+            h3 {
+                margin-bottom: 18px;
+            }
+            i {
+                width: 50px;
+                height: 50px;
+                line-height: 40px;
+                border: 5px solid #000;
+                border-radius: 50%;
+                margin: 5px;
+            }
+        }
+    }
+}
+
+.team-paragraph {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+}
+
+.cooperation img {
+        margin: 5px 20px;
+}
+
+/* contact  -------------------------------------------------------------- */
+
+.contact {
+    background-image: url('../images/Background.png');
+    width: 100%;
+    padding: 0 0 150px 0;
+    .content {
+        h2 {
+            color: #fff;
+        }
+    }
+    .container {
+        
+        form {
+            width: 900px;
+            .form-group {
+                padding: 4px;
+            }
+        }
+        
+        button {
+            color: #fff;
+        }
+    }
+}
+
+/* footer   -------------------------------------------------------------- */
+
+footer {
+    .icon-container {
+    @include flex;
+    flex-wrap: wrap;
+    width: 75%;
+    height: 120px;
+    line-height: 120px;
+        p {
+            text-transform: uppercase;
+            width: 450px;
+        }
+        i {
+            background-color: #222;
+            color: #fff;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin: 5px;
+            line-height: 40px;
+        }
+    }
+}
+
+
