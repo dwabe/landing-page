@@ -29,25 +29,22 @@ body {
 
 .navigation {
     @include flex;
-    margin-top: 75px;
+    margin-top: 5vh;
     .top-menu {
         z-index: 2;
         font-size: 36px;
-        img {
-           width: 79px;
-           height: 28px;
-           margin-right: 400px;
+        .logo {
+            @include flex;
+            justify-content: flex-start;
         }
         ul {
             list-style-type: none;
-            float: right;
+            display: flex;
+            justify-content: flex-end;
             li {
                 position: relative;
                 display: inline-block;
                 padding: 0 20px;
-                &:first-child {
-                    margin-left: 374px;
-                }
                 a {
                     /*deleted width & height */
                     color: #ffffff;
@@ -66,7 +63,6 @@ body {
 /* hero ----------------------------------------------------------------- */
 
 .hero {
-    border: 1px solid red;
     width: 100%;
     @include flex;
     background: rgba(0,0,0,0.5);
@@ -91,52 +87,46 @@ body {
     .hero-container {
         @include flex;
         flex-wrap: wrap;
-        max-width: 844px;
-        height: 266px;
+        max-width: 900px;
         align-self: center;
-        margin-top: 7%;
+        margin-top: 40vh;
         p   {
             text-transform: capitalize;
-            width: 600px;
-            height: 32px;
             color: #fff;
             font-family: "Droid Serif";
             font-size: 40px;
             font-style: italic;
-            letter-spacing: -1px;
+            font-weight: 100;
             text-align: center;
             margin: 0 auto;
         }
 
         h1 {
-            width: 844px;
-            height: 55px;
             color: #fff;
             font-family: 'Montserrat', sans-serif;
             font-size: 75px;
-            font-weight: 700;
+            font-weight: 900;
             text-transform: uppercase;
             letter-spacing: -1.88px;
             text-align: center;
             margin: 0 auto;
-            padding-top: 52px;
+            padding-top: 5vh;
         }
 
-        a {
-            button {
+        button {
             width: 240px;
             height: 65px;
             background-color: #fed136;
             color: #fff;
             margin: 0 auto;
-            margin-top: 100px;
+            margin-top: 5vh;
             font-family: 'Montserrat', sans-serif;
             font-size: 18px;
-            font-weight: 700;
+            font-weight: 900;
             text-transform: uppercase;
             border: none;
-            border-radius: 10px;
-            }
+            border-radius: 5px;
+            
         }
     }
 }
