@@ -35,7 +35,7 @@ body {
         font-size: 36px;
         .logo {
             @include flex;
-            justify-content: flex-start;
+            align-content: center;
         }
         ul {
             list-style-type: none;
