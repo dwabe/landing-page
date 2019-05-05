@@ -9,8 +9,6 @@ body {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
@@ -24,8 +22,6 @@ body {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
   margin-top: 5vh;
 }
 
@@ -39,8 +35,6 @@ body {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
 }
@@ -76,8 +70,6 @@ body {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
   background: rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,8 +101,6 @@ body {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   max-width: 900px;
@@ -335,8 +325,6 @@ footer .icon-container {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 75%;

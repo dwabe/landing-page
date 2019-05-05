@@ -7,7 +7,6 @@ body {
 .container {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
   max-width: 1200px;
@@ -18,7 +17,6 @@ body {
 .navigation {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin-top: 5vh;
 }
 
@@ -30,7 +28,6 @@ body {
 .navigation .top-menu .logo {
   display: flex;
   align-items: center;
-  justify-content: center;
   align-content: center;
 }
 
@@ -61,7 +58,6 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
   background: rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,7 +87,6 @@ body {
 .hero .hero-container {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
   max-width: 900px;
   align-self: center;
@@ -306,7 +301,6 @@ body {
 footer .icon-container {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
   width: 75%;
   height: 120px;
