@@ -3,7 +3,7 @@
 @mixin flex {
     display: flex;
     align-items: center;
-
+    justify-content: center;
 }
 
 @mixin background-rsp {
@@ -28,7 +28,8 @@ body {
 /* navigation ------------------------------------------------------------ */
 
 .navigation {
-    @include flex;
+    display: flex;
+    align-items: center;
     margin-top: 5vh;
     .top-menu {
         z-index: 2;
@@ -194,6 +195,12 @@ body {
 
 /* about us -------------------------------------------------------------- */
 
+.history {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .img-container {
     padding: 0;
     margin: 0;
@@ -214,7 +221,8 @@ body {
     border: 7px solid #f1f1f1;
     border-radius: 50%;
     background-color: #fed136;
-    margin: 0;
+    margin: 0 auto;
+    padding: 0;
     h3 {
         color: black;
         font-family: 'Montserrat', sans-serif;
