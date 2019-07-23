@@ -29,14 +29,16 @@ body {
 
 .navigation {
     display: flex;
-    align-items: center;
+    
     margin-top: 5vh;
     .top-menu {
+        display: flex;
         z-index: 2;
         font-size: 36px;
         .logo {
-            @include flex;
-            align-content: center;
+            display: flex;
+            float: left;
+            
         }
         ul {
             list-style-type: none;
